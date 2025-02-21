@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QR Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <main>
+            <div class="container">
+                <h1>QR Code Generator</h1>
+                <div class="url-container">
+                    <input class="url-input" type="text" placeholder="Place Your URL Here...">
+                    <button class="create-btn">Generate</button>
+                </div>
+                <div class="qr-container">
+                    <canvas class="qr-code"></canvas>
+                </div>
+                <button class="download-btn">Download QR</button>
+            </div>
+       </main> 
+       <script src="dist/bundle.js"></script>
+       <script type="module" src="./script.js"></script>
+    </body>
+</html>
